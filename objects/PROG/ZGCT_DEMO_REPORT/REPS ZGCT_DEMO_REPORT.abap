@@ -25,3 +25,4 @@ REPORT  ZGCT_DEMO_REPORT.
 
 
 write 'test'.
+write 'abc'.
