@@ -26,3 +26,5 @@ REPORT  ZGCT_DEMO_REPORT.
 
 write 'test'.
 write 'abc'.
+
+write 'test1'.   " new code line
