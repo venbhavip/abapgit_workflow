@@ -24,3 +24,5 @@
 REPORT  ZGCTS_POC.
 
 write:'poc '.
+
+write: 'poc2'.
