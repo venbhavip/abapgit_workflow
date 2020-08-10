@@ -43,3 +43,5 @@ CALL METHOD cls_ref->get_material
 WRITE:lv_matnr, lv_maktx.
 
 write: 'test manual'.
+
+write: 'test branch'.
