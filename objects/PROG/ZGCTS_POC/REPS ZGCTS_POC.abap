@@ -42,4 +42,4 @@ CALL METHOD cls_ref->get_material
     .
 WRITE:lv_matnr, lv_maktx.
 
-write: 'commit successful---test pull now'.
+WRITE: 'test after pull'.
