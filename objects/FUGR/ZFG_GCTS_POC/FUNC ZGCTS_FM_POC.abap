@@ -8,7 +8,7 @@ FUNCTION ZGCTS_FM_POC.
 *"----------------------------------------------------------------------
 
 **fetch material text
-
+**test FM
 select single maktx
   from makt
   into e_maktx
