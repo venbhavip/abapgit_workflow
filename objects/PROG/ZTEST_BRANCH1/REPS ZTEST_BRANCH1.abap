@@ -1,4 +1,4 @@
-************************************************************************
+*************************************************************************
 *  Confidential property of PepsiCo                                    *
 *  All Rights Reserved                                                 *
 ************************************************************************
@@ -23,4 +23,6 @@
 
 REPORT  ZTEST_BRANCH1.
 
-write: 'test branch1'.
+write: 'test branch2'.
+
+write: 'testing by moving to branch2'.
