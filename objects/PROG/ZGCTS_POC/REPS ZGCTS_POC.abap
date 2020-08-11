@@ -23,7 +23,7 @@
 
 REPORT  zgcts_poc.
 
-WRITE:'poc_demo'.
+WRITE:'poc_dem_2'.
 
 WRITE: 'poc_11.08'.
 
