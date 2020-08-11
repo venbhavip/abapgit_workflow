@@ -23,7 +23,7 @@
 
 REPORT  zgcts_poc.
 
-WRITE:'poc_demo_branch'.
+WRITE:'poc_branch_test'.
 
 WRITE: 'poc_11.08'.
 
