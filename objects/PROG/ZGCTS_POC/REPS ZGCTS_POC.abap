@@ -25,7 +25,7 @@ REPORT  zgcts_poc.
 
 WRITE:'poc '.
 
-WRITE: 'poc2'.
+WRITE: 'poc_11.08'.
 
 DATA:lv_matnr TYPE matnr.
 lv_matnr = '000000000100000003'.
