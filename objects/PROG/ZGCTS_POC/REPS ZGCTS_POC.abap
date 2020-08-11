@@ -44,4 +44,4 @@ WRITE:lv_matnr, lv_maktx.
 
 write: 'test manual'.
 
-write: ' test release '.
+write: ' test demo'.
