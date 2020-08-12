@@ -23,9 +23,7 @@
 
 REPORT  zgcts_poc.
 
-
-
-WRITE:'poc_branch2_test'.
+WRITE:'poc_branch1_test'.
 
 WRITE: 'poc_11.08'.
 
@@ -45,5 +43,7 @@ CALL METHOD cls_ref->get_material
 WRITE:lv_matnr, lv_maktx.
 
 write: 'test manual'.
+
+write : 'branch1_test'.
 
 write: ' test demo'.
