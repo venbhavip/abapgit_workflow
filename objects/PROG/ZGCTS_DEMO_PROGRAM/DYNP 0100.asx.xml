@@ -20,8 +20,8 @@
 <HDAT></HDAT>
 <SPRA>E</SPRA>
 <CUPO></CUPO>
-<DGEN>2020-08-11</DGEN>
-<TGEN>15:49:18</TGEN>
+<DGEN>2020-08-12</DGEN>
+<TGEN>09:18:14</TGEN>
 </D020S>
 </D020S>
 <D020T>
@@ -296,7 +296,7 @@
 <FMB1>48</FMB1>
 <FMB2>0</FMB2>
 <COLR></COLR>
-<LENG>15</LENG>
+<LENG>13</LENG>
 <LINE>9</LINE>
 <COLN>7</COLN>
 <LTYP></LTYP>
@@ -317,7 +317,7 @@
 <ITYP>0</ITYP>
 <AGLT>0</AGLT>
 <ADEZ>0</ADEZ>
-<STXT>Product Value $</STXT>
+<STXT>Product Value</STXT>
 <RES1>                                                                                                                                                                                                                                                        X</RES1>
 <RES2></RES2>
 </D021S>
@@ -622,7 +622,7 @@
 <DYNR>0100</DYNR>
 <LANG>E</LANG>
 <FLDN>PRO_VALUE</FLDN>
-<DTXT>Product Value $</DTXT>
+<DTXT>Product Value</DTXT>
 </D021T>
 <D021T>
 <PROG>ZGCTS_DEMO_PROGRAM</PROG>

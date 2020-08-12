@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-PROGRAM ZGCTS_DEMO_PROGRAM.
+PROGRAM zgcts_demo_program.
 INCLUDE ZGCTS_DEMO_Program_top.
 *&---------------------------------------------------------------------*
 *& Module STATUS_0100 OUTPUT
@@ -20,11 +20,11 @@ ENDMODULE.
 *       text
 *----------------------------------------------------------------------*
 MODULE user_command_0100 INPUT.
-case sy-ucomm.
-when 'EXIT'.
-leave to screen 0.
+CASE sy-ucomm.
+WHEN 'EXIT'.
+LEAVE TO SCREEN 0.
 
-when 'ENTER'.
+WHEN 'ENTER'.
  ls_pro-pro_id = gv_pro_id.
 ls_pro-country = gv_COUNTRY.
 ls_pro-pro_name = gv_PRO_NAME.
@@ -32,18 +32,18 @@ ls_pro-pro_sale = gv_PRO_value.
 ls_pro-pro_qty = gv_PRO_QTy.
 ls_pro-pro_date = gv_PRO_DATE.
 
-when 'SAVE'.
+WHEN 'SAVE'.
 ls_pro-pro_id = gv_pro_id.
 ls_pro-country = gv_COUNTRY.
 ls_pro-pro_name = gv_PRO_NAME.
 ls_pro-pro_sale = gv_PRO_value.
 ls_pro-pro_qty = gv_PRO_QTy.
 ls_pro-pro_date = gv_PRO_DATE.
-append ls_pro to lt_pro.
-IF ls_pro is NOT INITIAL.
-MODIFY ZGCTS_DEMO_TABLE from table lt_pro.
+APPEND ls_pro TO lt_pro.
+IF ls_pro IS NOT INITIAL.
+MODIFY zgcts_demo_table FROM TABLE lt_pro.
 ENDIF.
 
-endcase.
+ENDCASE.
 
 ENDMODULE.
