@@ -25,6 +25,3 @@ REPORT  ZLGCTS_REP_DEMO.
 
 *Demo code to update in master branch
 Write: 'Demo test1'.
-
-*Demo code to update in Branch 2
-Write: 'Demo test4'.
