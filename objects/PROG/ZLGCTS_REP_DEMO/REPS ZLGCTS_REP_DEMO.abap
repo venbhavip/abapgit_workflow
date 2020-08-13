@@ -24,4 +24,4 @@
 REPORT  ZLGCTS_REP_DEMO.
 
 *Demo code to update in master branch
-Write: 'Demo test1'.
+WRITE: 'tested again'.
