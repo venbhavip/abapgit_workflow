@@ -26,8 +26,5 @@ REPORT  ZLGCTS_REP_DEMO.
 *Demo code to update in master branch
 Write: 'Demo test1'.
 
-*Demo code to push data in branch 1
-Write: 'Demo Test2'.
-
-*Demo code to push data in branch 2
-Write: 'Demo Test3'.
+*Demo code to update in Branch 2
+Write: 'Demo test4'.
