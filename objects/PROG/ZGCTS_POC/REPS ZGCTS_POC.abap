@@ -23,7 +23,7 @@
 
 REPORT  zgcts_poc.
 
-
+write: 'demo 13.08'.
 
 
 DATA:lv_matnr TYPE matnr.
