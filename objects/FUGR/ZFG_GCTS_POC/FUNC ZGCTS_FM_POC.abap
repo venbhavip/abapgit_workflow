@@ -1,4 +1,4 @@
-FUNCTION ZGCTS_FM_POC.
+FUNCTION zgcts_fm_poc.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
@@ -8,12 +8,12 @@ FUNCTION ZGCTS_FM_POC.
 *"----------------------------------------------------------------------
 
 **fetch material text
-**test FM
-select single maktx
-  from makt
-  into e_maktx
-  where matnr  = i_matnr
-    and spras = 'E'.
+
+SELECT SINGLE maktx
+  FROM makt
+  INTO e_maktx
+  WHERE matnr  = i_matnr
+    AND spras = 'E'.
 
 
 

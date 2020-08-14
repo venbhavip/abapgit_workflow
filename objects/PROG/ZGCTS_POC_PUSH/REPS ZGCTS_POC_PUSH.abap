@@ -21,6 +21,23 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZGCTS_POC_PUSH.
+REPORT  zgcts_poc_push.
 
-Write: 'Initial Commit(Push)'.
+WRITE: 'Initial Commit(Push)'.
+
+DATA:lv_matnr TYPE matnr.
+lv_matnr = '000000000100000003'.
+
+DATA: cls_ref TYPE REF TO zcl_gcts_poc.
+
+CREATE OBJECT cls_ref.
+
+CALL METHOD cls_ref->get_material
+  EXPORTING
+    i_matnr = lv_matnr
+  IMPORTING
+    e_maktx = DATA(lv_maktx)
+    .
+WRITE:lv_matnr, lv_maktx.
+
+Write: 'Push Different objects'.
