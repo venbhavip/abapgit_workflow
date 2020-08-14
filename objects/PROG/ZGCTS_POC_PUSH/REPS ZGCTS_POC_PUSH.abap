@@ -41,3 +41,5 @@ CALL METHOD cls_ref->get_material
 WRITE:lv_matnr, lv_maktx.
 
 Write: 'Push Different objects'.
+
+Write: 'Manual Push'.
