@@ -23,7 +23,8 @@
 
 REPORT  zgcts_poc_push.
 
-write: 'test again'.
+write: 'test 18.08-demo'.
+
 WRITE: 'Initial Commit(Push)'.
 
 DATA:lv_matnr TYPE matnr.
