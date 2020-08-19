@@ -1,6 +1,7 @@
 *&---------------------------------------------------------------------*
 *& Include          ZGCTS_DEMO_PROGRAM_TOP
 *&---------------------------------------------------------------------*
+*Test Code
 DATA: Ls_pro       TYPE  zgcts_demo_table,
       lt_pro       TYPE TABLE OF zgcts_demo_table,
       gv_pro_id    TYPE zgcts_demo_table-pro_id,

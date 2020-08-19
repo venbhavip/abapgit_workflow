@@ -40,6 +40,7 @@ ls_pro-pro_sale = gv_PRO_value.
 ls_pro-pro_qty = gv_PRO_QTy.
 ls_pro-pro_date = gv_PRO_DATE.
 APPEND ls_pro TO lt_pro.
+
 IF ls_pro IS NOT INITIAL.
 MODIFY zgcts_demo_table FROM TABLE lt_pro.
 ENDIF.
