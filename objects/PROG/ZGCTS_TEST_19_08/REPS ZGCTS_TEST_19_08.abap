@@ -24,6 +24,7 @@
 REPORT  ZGCTS_TEST_19_08.
 
 
+<<<<<<< HEAD
 write : 'push to master'.
 DATA:lv_matnr TYPE matnr.
 lv_matnr = '000000000100000003'.
@@ -42,3 +43,7 @@ WRITE:lv_matnr, lv_maktx.
 write: 'push to test1 branch'.
 
 write: 'push to test1 again'.
+=======
+write: 'push to master again.'.
+write : 'push to master'.
+>>>>>>> 86236cc42e788290cce88a5b6bed8e83a041ff99
