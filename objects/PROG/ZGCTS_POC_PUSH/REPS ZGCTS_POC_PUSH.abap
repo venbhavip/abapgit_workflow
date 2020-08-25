@@ -23,7 +23,7 @@
 
 REPORT  zgcts_poc_push.
 
-write: 'test 18.08-demo'.
+write: 'test 25.08-demo'.
 
 WRITE: 'Initial Commit(Push)'.
 
@@ -47,4 +47,5 @@ Write: 'Push Different objects'.
 Write: 'Manual Push'.
 
 
-WRITE: 'test4 branch'.
+
+WRITE: 'test2 branch'.
