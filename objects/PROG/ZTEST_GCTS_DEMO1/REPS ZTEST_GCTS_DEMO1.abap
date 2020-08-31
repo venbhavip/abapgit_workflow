@@ -24,3 +24,5 @@
 REPORT  ZTEST_GCTS_DEMO1.
 
 Write: 'push the code to pep repository'.
+
+Write: 'Manual push to rep'.
