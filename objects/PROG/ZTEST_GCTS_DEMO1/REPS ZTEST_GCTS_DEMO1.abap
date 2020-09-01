@@ -23,8 +23,6 @@
 
 REPORT  ZTEST_GCTS_DEMO1.
 
-Write: 'push the code to pep repository'.
+Write: 'push the code to pep repository 01.09'.
 
 Write: 'Manual push to rep'.
-
-Write: ' Push to test1 branch'.
