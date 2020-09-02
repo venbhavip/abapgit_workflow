@@ -28,3 +28,5 @@ Write: 'push the code to pep repository 02.09'.
 Write: 'Manual push to rep'.
 
 write: 'test today'.
+
+write: ' manual test 02.09'.
