@@ -11,6 +11,7 @@ INCLUDE ZGCTS_DEMO_Program_top.
 *&
 *&---------------------------------------------------------------------*
 MODULE status_0100 OUTPUT.
+*  Test line
  SET PF-STATUS 'PFSTATUS'.
  SET TITLEBAR 'TITLE'.
 ENDMODULE.
