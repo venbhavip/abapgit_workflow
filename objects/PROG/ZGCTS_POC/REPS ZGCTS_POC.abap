@@ -25,7 +25,7 @@ REPORT  zgcts_poc.
 
 write:  'test to pep rep'.
 
-write: 'demo 18.08'.
+write: 'demo test1'.
 
 
 DATA:lv_matnr TYPE matnr.
