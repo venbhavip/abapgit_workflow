@@ -27,6 +27,8 @@ write:  'test to pep rep'.
 
 write: 'demo test1'.
 
+write: 'demo 16.09'.
+
 
 DATA:lv_matnr TYPE matnr.
 lv_matnr = '000000000100000003'.
